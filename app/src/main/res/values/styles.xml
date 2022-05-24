@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppCompat" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#8696EC</item>
+        <item name="colorPrimaryDark">#B6000000</item>
+        <item name="colorAccent">#03A9F4</item>
+    </style>
+
+    <style name="Theme.SocialMediaApp." parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorPrimary">#8696EC</item>
+        <item name="colorPrimaryDark">#046991</item>
+        <item name="colorAccent">#03A9F4</item>
+
+    </style>
+    <style name="Bottomanim">
+
+        <item name="android:windowEnterAnimation">@anim/anim_in</item>
+        <item name="android:windowExitAnimation">@anim/anim_out</item>
+
+    </style>
+
+</resources>

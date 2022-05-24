@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="@drawable/bottom_back"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Report User"
+        android:textSize="25sp"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:textSize="17sp"
+        android:layout_marginTop="5dp"
+        android:text="Posting Content that should not be here"
+        android:id="@+id/shouldnothere"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/black"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/shouldnotberhere_ll"
+        android:visibility="gone"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Its Spam"
+                android:id="@+id/spam"
+                android:layout_marginLeft="20dp"/>
+
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Suicide, Self Injury"
+                android:id="@+id/suicide"
+                android:layout_marginLeft="20dp"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nudity or Sexual Activity"
+                android:id="@+id/nudity"
+                android:layout_marginLeft="20dp"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hate Speech or Symbols"
+                android:id="@+id/hatespeech"
+                android:layout_marginLeft="20dp"/>
+
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Violence"
+                android:id="@+id/violence"
+                android:layout_marginLeft="20dp"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bullying or harassment"
+                android:id="@+id/bullying"
+                android:layout_marginLeft="20dp"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="false Information"
+                android:id="@+id/falseinfo"
+                android:layout_marginLeft="20dp"/>
+
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:textSize="17sp"
+        android:layout_marginTop="5dp"
+        android:text="Its is pretending to be someone else"
+        android:id="@+id/pretending"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/black"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/pretending_ll"
+        android:padding="10dp"
+        android:visibility="gone"
+        >
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Me"
+            android:id="@+id/me"
+            android:layout_marginLeft="20dp"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Someone I Know"
+            android:id="@+id/someoneiknow"
+            android:layout_marginLeft="20dp"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A celebrity"
+            android:id="@+id/celebrity"
+            android:layout_marginLeft="20dp"/>
+
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_back"
+        android:text="Submit Report"
+        android:id="@+id/btn_report_user"
+        android:textColor="@color/white"
+        android:layout_marginTop="60dp"/>
+</LinearLayout>

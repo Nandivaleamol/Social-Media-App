@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="top"
+    android:gravity="top"
+    android:background="@color/white">
+
+    <EditText
+        android:id="@+id/search_f3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/search_back"
+        android:drawableLeft="@drawable/ic_grey_search_24"
+        android:drawablePadding="10dp"
+        android:hint="Search user"
+        android:maxLines="1"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:paddingLeft="20dp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/requeststv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/search_f3"
+        android:layout_marginRight="10dp"
+        android:padding="5dp"
+        android:text="Requests"
+        android:textColor="@color/start"
+        android:textSize="20sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recylerview_requestf3"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/requeststv" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recylerview_profile"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/recylerview_requestf3"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp" />
+
+</RelativeLayout>

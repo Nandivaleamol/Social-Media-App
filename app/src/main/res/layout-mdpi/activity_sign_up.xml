@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1694CD"
+    tools:context=".SignUpActivity">
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/bungee_shade"
+        android:text="Memer's Katta"
+        android:textColor="@color/white"
+        android:textSize="33sp"
+        android:gravity="center"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/heading"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edittext"
+            android:drawableStart="@drawable/ic_person"
+            android:drawablePadding="5dp"
+            android:fontFamily="@font/montserrat_alternates"
+            android:hint="Username"
+            android:inputType="text"
+            android:maxLength="25"
+            android:maxLines="1"
+            android:padding="9dp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <EditText
+            android:id="@+id/memer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edittext"
+            android:drawableStart="@drawable/ic_baseline_memer"
+            android:drawablePadding="5dp"
+            android:fontFamily="@font/montserrat_alternates"
+            android:hint="Memer name"
+            android:inputType="text"
+            android:maxLength="20"
+            android:maxLines="1"
+            android:padding="9dp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edittext"
+            android:drawableStart="@drawable/ic_email"
+            android:drawablePadding="5dp"
+            android:fontFamily="@font/montserrat_alternates"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:padding="9dp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edittext"
+            android:drawableStart="@drawable/ic_baseline_lock_24"
+            android:drawablePadding="5dp"
+            android:fontFamily="@font/montserrat_alternates"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="9dp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/signUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button_back"
+            android:fontFamily="@font/montserrat_alternates"
+            android:minWidth="120dp"
+            android:padding="10dp"
+            android:text="Sign Up"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/goToLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15sp"
+            android:layout_marginBottom="10dp"
+            android:clickable="true"
+            android:fontFamily="@font/montserrat_alternates"
+            android:gravity="center"
+            android:text="Already have a account ? Sign in here"
+            android:textColor="#FFEB3B"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:ignore="TouchTargetSizeCheck" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

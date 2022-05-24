@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "129078403028",
+    "firebase_url": "https://memers-katta-default-rtdb.firebaseio.com",
+    "project_id": "memers-katta",
+    "storage_bucket": "memers-katta.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:129078403028:android:5c38dc4cc1e4f4373e0041",
+        "android_client_info": {
+          "package_name": "com.nandivaleamol.memerskatta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "129078403028-fu9iofb48n8sbk84ha6nppsnqtf1njd4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCN5ulfQnWE_QQEDMgNiIjoNu7W7xvroVQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "129078403028-fu9iofb48n8sbk84ha6nppsnqtf1njd4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:129078403028:android:0d3d07d1fc68560d3e0041",
+        "android_client_info": {
+          "package_name": "com.nandivaleamol.socialmediaapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "129078403028-fu9iofb48n8sbk84ha6nppsnqtf1njd4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCN5ulfQnWE_QQEDMgNiIjoNu7W7xvroVQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "129078403028-fu9iofb48n8sbk84ha6nppsnqtf1njd4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

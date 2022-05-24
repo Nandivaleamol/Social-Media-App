@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Social Media App/app/src/main/res/drawable-v24/buttons.xml" value="0.2528205128205128" />
+        <entry key="..\:/Social Media App/app/src/main/res/drawable-v24/profile_image.xml" value="0.21574074074074073" />
+        <entry key="..\:/Social Media App/app/src/main/res/drawable/background_custom_reply.xml" value="0.2528205128205128" />
+        <entry key="..\:/Social Media App/app/src/main/res/drawable/bottom_back.xml" value="0.21574074074074073" />
+        <entry key="..\:/Social Media App/app/src/main/res/drawable/button_back.xml" value="0.21574074074074073" />
+        <entry key="..\:/Social Media App/app/src/main/res/drawable/button_back1.xml" value="0.21574074074074073" />
+        <entry key="..\:/Social Media App/app/src/main/res/drawable/receiver_back.xml" value="0.21574074074074073" />
+        <entry key="..\:/Social Media App/app/src/main/res/drawable/receiver_left.xml" value="0.21574074074074073" />
+        <entry key="..\:/Social Media App/app/src/main/res/drawable/send_back.xml" value="0.21574074074074073" />
+        <entry key="..\:/Social Media App/app/src/main/res/drawable/sender_back.xml" value="0.21574074074074073" />
+        <entry key="..\:/Social Media App/app/src/main/res/font/monoton.xml" value="0.2574074074074074" />
+        <entry key="..\:/Social Media App/app/src/main/res/layout-hdpi/activity_ask.xml" value="0.18046875" />
+        <entry key="..\:/Social Media App/app/src/main/res/layout-hdpi/activity_follower.xml" value="0.264" />
+        <entry key="..\:/Social Media App/app/src/main/res/layout-hdpi/activity_message.xml" value="0.2" />
+        <entry key="..\:/Social Media App/app/src/main/res/layout-hdpi/fragment_profile.xml" value="0.18046875" />
+        <entry key="..\:/Social Media App/app/src/main/res/layout-hdpi/message_layout.xml" value="0.18046875" />
+        <entry key="..\:/Social Media App/app/src/main/res/layout-ldpi/activity_follower.xml" value="1.44375" />
+        <entry key="..\:/Social Media App/app/src/main/res/layout-ldpi/chat_profile_item.xml" value="1.0" />
+        <entry key="..\:/Social Media App/app/src/main/res/layout-ldpi/fragment_profile.xml" value="1.44375" />
+        <entry key="..\:/Social Media App/app/src/main/res/layout-ldpi/images_tab.xml" value="0.11879432624113476" />
+        <entry key="..\:/Social Media App/app/src/main/res/layout-ldpi/message_layout.xml" value="1.44375" />
+        <entry key="..\:/Social Media App/app/src/main/res/layout-ldpi/stories_tab.xml" value="0.11879432624113476" />
+        <entry key="..\:/Social Media App/app/src/main/res/layout-ldpi/videos_tab.xml" value="0.11879432624113476" />
+        <entry key="..\:/Social Media App/app/src/main/res/layout-mdpi/activity_follower.xml" value="0.9625" />
+        <entry key="..\:/Social Media App/app/src/main/res/layout-mdpi/activity_message.xml" value="0.264" />
+        <entry key="..\:/Social Media App/app/src/main/res/layout-mdpi/chat_profile_item.xml" value="0.9625" />
+        <entry key="..\:/Social Media App/app/src/main/res/layout-mdpi/fragment_profile.xml" value="0.2" />
+        <entry key="..\:/Social Media App/app/src/main/res/layout-mdpi/message_layout.xml" value="0.9625" />
+        <entry key="..\:/Social Media App/app/src/main/res/layout-xhdpi/activity_follower.xml" value="0.3609375" />
+        <entry key="..\:/Social Media App/app/src/main/res/layout-xhdpi/activity_message.xml" value="0.264" />
+        <entry key="..\:/Social Media App/app/src/main/res/layout-xhdpi/fragment_profile.xml" value="0.176" />
+        <entry key="..\:/Social Media App/app/src/main/res/layout-xhdpi/message_layout.xml" value="0.3609375" />
+        <entry key="..\:/Social Media App/app/src/main/res/layout-xxhdpi/activity_follower.xml" value="0.240625" />
+        <entry key="..\:/Social Media App/app/src/main/res/layout-xxhdpi/activity_message.xml" value="0.240625" />
+        <entry key="..\:/Social Media App/app/src/main/res/layout-xxhdpi/chat_profile_item.xml" value="0.240625" />
+        <entry key="..\:/Social Media App/app/src/main/res/layout-xxhdpi/fragment_profile.xml" value="0.240625" />
+        <entry key="..\:/Social Media App/app/src/main/res/layout-xxhdpi/message_layout.xml" value="0.240625" />
+        <entry key="..\:/Social Media App/app/src/main/res/layout-xxxhdpi-notouch/custom_exoplayer.xml" value="0.2037037037037037" />
+        <entry key="..\:/Social Media App/app/src/main/res/layout-xxxhdpi/activity_message.xml" value="0.18046875" />
+        <entry key="..\:/Social Media App/app/src/main/res/layout-xxxhdpi/chat_profile_item.xml" value="0.18046875" />
+        <entry key="..\:/Social Media App/app/src/main/res/layout-xxxhdpi/fragment_profile.xml" value="0.18046875" />
+        <entry key="..\:/Social Media App/app/src/main/res/layout-xxxhdpi/message_layout.xml" value="0.18046875" />
+        <entry key="..\:/Social Media App/app/src/main/res/layout/activity_answer.xml" value="0.1" />
+        <entry key="..\:/Social Media App/app/src/main/res/layout/activity_ask.xml" value="0.240625" />
+        <entry key="..\:/Social Media App/app/src/main/res/layout/activity_chat.xml" value="0.240625" />
+        <entry key="..\:/Social Media App/app/src/main/res/layout/activity_follower.xml" value="0.240625" />
+        <entry key="..\:/Social Media App/app/src/main/res/layout/activity_individual_post.xml" value="0.152" />
+        <entry key="..\:/Social Media App/app/src/main/res/layout/activity_login.xml" value="0.240625" />
+        <entry key="..\:/Social Media App/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Social Media App/app/src/main/res/layout/activity_message.xml" value="0.2" />
+        <entry key="..\:/Social Media App/app/src/main/res/layout/activity_notification_acitivity.xml" value="0.240625" />
+        <entry key="..\:/Social Media App/app/src/main/res/layout/activity_register.xml" value="0.240625" />
+        <entry key="..\:/Social Media App/app/src/main/res/layout/activity_send_image.xml" value="0.240625" />
+        <entry key="..\:/Social Media App/app/src/main/res/layout/activity_settings.xml" value="0.240625" />
+        <entry key="..\:/Social Media App/app/src/main/res/layout/activity_splash_screen1.xml" value="0.240625" />
+        <entry key="..\:/Social Media App/app/src/main/res/layout/activity_story.xml" value="0.16576086956521738" />
+        <entry key="..\:/Social Media App/app/src/main/res/layout/activity_video_call_outgoing.xml" value="0.240625" />
+        <entry key="..\:/Social Media App/app/src/main/res/layout/activity_video_callin_coming.xml" value="0.240625" />
+        <entry key="..\:/Social Media App/app/src/main/res/layout/bottom_sheet2_af.xml" value="0.240625" />
+        <entry key="..\:/Social Media App/app/src/main/res/layout/bottom_sheet_menu.xml" value="0.240625" />
+        <entry key="..\:/Social Media App/app/src/main/res/layout/chat_profile_item.xml" value="0.240625" />
+        <entry key="..\:/Social Media App/app/src/main/res/layout/follower_layout.xml" value="0.240625" />
+        <entry key="..\:/Social Media App/app/src/main/res/layout/fragment_home.xml" value="0.240625" />
+        <entry key="..\:/Social Media App/app/src/main/res/layout/fragment_image_tab.xml" value="0.240625" />
+        <entry key="..\:/Social Media App/app/src/main/res/layout/fragment_individual_post.xml" value="0.240625" />
+        <entry key="..\:/Social Media App/app/src/main/res/layout/fragment_profile.xml" value="0.240625" />
+        <entry key="..\:/Social Media App/app/src/main/res/layout/fragment_requests.xml" value="0.240625" />
+        <entry key="..\:/Social Media App/app/src/main/res/layout/fragment_video_tab.xml" value="0.2056159420289855" />
+        <entry key="..\:/Social Media App/app/src/main/res/layout/images_tab.xml" value="0.240625" />
+        <entry key="..\:/Social Media App/app/src/main/res/layout/message_layout.xml" value="0.2" />
+        <entry key="..\:/Social Media App/app/src/main/res/layout/message_options.xml" value="0.240625" />
+        <entry key="..\:/Social Media App/app/src/main/res/layout/user_like_layout.xml" value="0.240625" />
+        <entry key="..\:/Social Media App/app/src/main/res/menu/menu.xml" value="0.240625" />
+        <entry key="..\:/Social Media App/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.13489583333333333" />
+        <entry key="..\:/Social Media App/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.13489583333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

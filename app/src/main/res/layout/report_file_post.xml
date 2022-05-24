@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="30dp"
+    android:orientation="vertical"
+    android:background="@drawable/bottom_back"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Report Post"
+        android:layout_margin="5dp"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             android:text="Sexual Content"
+            android:id="@+id/sexualTv_report"
+            android:textColor="@android:color/black"
+            android:layout_margin="5dp"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Violent or repulsive"
+            android:id="@+id/violenTv_report"
+            android:textColor="@android:color/black"
+            android:layout_margin="5dp"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hateful or Abusive content"
+            android:id="@+id/hatefulTv_report"
+            android:textColor="@android:color/black"
+            android:layout_margin="5dp"/>
+
+        <RadioButton
+            android:id="@+id/harassmentTv_report"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Harassment or Bullying"
+            android:textColor="@android:color/black" />
+
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Child abuse"
+            android:id="@+id/childTv_report"
+            android:textColor="@android:color/black"
+            android:layout_margin="5dp"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Infringes my rights"
+            android:id="@+id/infringesTv_report"
+            android:textColor="@android:color/black"
+            android:layout_margin="5dp"/>
+
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Spam or misleading"
+            android:id="@+id/spamTv_report"
+            android:textColor="@android:color/black"
+            android:layout_margin="5dp"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Promotes terrorism"
+            android:id="@+id/terrorismTv_report"
+            android:textColor="@android:color/black"
+            android:layout_margin="5dp"/>
+
+
+    </RadioGroup>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:background="@color/start"
+            android:id="@+id/cancel_report_post"
+            android:text="cancel"
+            android:layout_weight="1"
+            android:layout_margin="2dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:background="@color/start"
+            android:id="@+id/submit_report_post"
+            android:text="Submit"
+            android:layout_weight="1"
+            android:layout_margin="2dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

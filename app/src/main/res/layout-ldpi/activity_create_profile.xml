@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="top"
+    tools:context=".CreateProfileActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center_horizontal"
+        android:text="Create Profile"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="15sp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        app:cardPreventCornerOverlap="false"
+        app:cardCornerRadius="75dp">
+
+        <ImageView
+            android:id="@+id/iv_cp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/ic_person"
+            android:clickable="true"
+            android:scaleType="fitCenter" />
+    </androidx.cardview.widget.CardView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:id="@+id/et_name_cp"
+        android:layout_marginBottom="6dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:paddingStart="3dp"
+        android:drawablePadding="4dp"
+        android:drawableLeft="@drawable/ic_person"
+        android:paddingLeft="10dp"
+        android:maxLines="1"
+        android:textColor="@android:color/black"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Profession"
+        android:id="@+id/et_profession_cp"
+        android:layout_marginBottom="6dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:paddingStart="3dp"
+        android:drawablePadding="4dp"
+        android:drawableLeft="@drawable/ic_profession"
+        android:paddingLeft="10dp"
+        android:textColor="@android:color/black"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Bio"
+        android:id="@+id/et_bio_cp"
+        android:layout_marginBottom="6dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:paddingStart="3dp"
+        android:drawablePadding="4dp"
+        android:drawableLeft="@drawable/ic_bio"
+        android:paddingLeft="10dp"
+        android:textColor="@android:color/black"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:id="@+id/et_email_cp"
+        android:layout_marginBottom="6dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:paddingStart="3dp"
+        android:drawablePadding="4dp"
+        android:drawableLeft="@drawable/ic_email"
+        android:paddingLeft="10dp"
+        android:maxLines="1"
+        android:textColor="@android:color/black" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Website"
+        android:id="@+id/et_website_cp"
+        android:layout_marginBottom="6dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:paddingStart="3dp"
+        android:drawablePadding="4dp"
+        android:drawableLeft="@drawable/ic_website"
+        android:paddingLeft="10dp"
+        android:maxLines="1"
+        android:textColor="@android:color/black"
+        tools:ignore="RtlSymmetry" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Profile"
+        android:layout_marginBottom="6dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@android:color/holo_red_light"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        android:layout_marginTop="6dp"
+        android:id="@+id/btn_cp"/>
+
+    <ProgressBar
+        android:id="@+id/et_progressbr_cp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="3dp"
+        android:visibility="invisible" />
+
+
+</LinearLayout>

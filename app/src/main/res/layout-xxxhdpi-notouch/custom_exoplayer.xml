@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@android:color/black"
+    android:orientation="vertical"
+    android:layoutDirection="ltr"
+    android:layout_gravity="bottom"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints">
+
+        <ImageButton
+            android:layout_width="60dp"
+            style="@style/ExoMediaButton.Play"
+            android:id="@+id/exo_play"/>
+        <ImageButton
+            android:layout_width="60dp"
+            style="@style/ExoMediaButton.Pause"
+            android:id="@+id/exo_pause"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/exo_position"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:textColor="@color/red"
+            android:textSize="10sp"
+            android:textStyle="normal"
+            android:includeFontPadding="false"/>
+
+        <com.google.android.exoplayer2.ui.DefaultTimeBar
+            android:id="@+id/exo_progress"
+            android:layout_width="0dp"
+            android:layout_height="26dp"
+            android:layout_weight="1"
+            app:played_color="@color/red"
+            tools:ignore="SpeakableTextPresentCheck" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/exo_duration"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:textColor="@color/red"
+            android:textSize="10sp"
+            android:textStyle="normal"
+            android:includeFontPadding="false"/>
+    </LinearLayout>
+
+</LinearLayout>

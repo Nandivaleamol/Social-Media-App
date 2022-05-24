@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".UpdateProfileActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Profile"
+        android:textColor="@color/red"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/et_name_up"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_margin="4dp"
+        android:drawableLeft="@drawable/ic_person"
+        android:drawablePadding="7dp"
+        android:hint="Name"
+        android:paddingStart="5dp"
+        android:paddingLeft="10dp"
+        android:textColor="@android:color/darker_gray"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/et_profession_up"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_margin="4dp"
+        android:drawableLeft="@drawable/ic_profession"
+        android:drawablePadding="7dp"
+        android:hint="Profession"
+        android:paddingStart="5dp"
+        android:paddingLeft="10dp"
+        android:textColor="@android:color/darker_gray"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/et_bio_up"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_margin="4dp"
+        android:drawableLeft="@drawable/ic_bio"
+        android:drawablePadding="7dp"
+        android:hint="Bio"
+        android:paddingStart="5dp"
+        android:paddingLeft="10dp"
+        android:textColor="@android:color/darker_gray"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/et_email_up"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_margin="4dp"
+        android:drawableLeft="@drawable/ic_email"
+        android:drawablePadding="7dp"
+        android:hint="Email"
+        android:paddingStart="5dp"
+        android:paddingLeft="10dp"
+        android:textColor="@android:color/darker_gray"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/et_website_up"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_margin="4dp"
+        android:drawableLeft="@drawable/ic_website"
+        android:drawablePadding="7dp"
+        android:hint="Website"
+        android:paddingStart="5dp"
+        android:paddingLeft="10dp"
+        android:textColor="@android:color/darker_gray"
+        tools:ignore="RtlSymmetry,TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/btn_up"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_margin="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/holo_red_light"
+        android:clickable="true"
+        android:text="Update Now"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        tools:ignore="TouchTargetSizeCheck" />
+
+</LinearLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="10dp"
+    android:id="@+id/cv_chat_profile"
+    android:layout_margin="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:id="@+id/ll_chat_profile"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center_vertical"
+                app:cardPreventCornerOverlap="false"
+                app:cardCornerRadius="35dp">
+
+                <ImageView
+                    android:id="@+id/iv_ch_item"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/ic_person"
+                    android:clickable="true"
+                    android:scaleType="fitCenter"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="top"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="@color/red"
+                android:id="@+id/send_messagech_item_btn"
+                android:text="Send Message"
+                android:layout_gravity="right"/>
+
+            <TextView
+                android:id="@+id/name_ch_item_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="name"
+                android:paddingStart="5dp"
+                android:textColor="@color/textcolorgrey"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:id="@+id/ch_itemprof_tv"
+                android:paddingStart="5dp"
+                android:hint="questions" />
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

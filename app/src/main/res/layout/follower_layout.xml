@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    app:cardCornerRadius="5dp"
+    android:layout_margin="2dp"
+    android:padding="2dp"
+    app:cardBackgroundColor="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+           app:cardPreventCornerOverlap="false"
+            android:elevation="8dp"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="30dp">
+
+
+            <ImageView
+                android:id="@+id/iv_follower"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:clickable="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_baseline_person_24"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/name_follower"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="15dp"
+            android:text="name"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/profession_follower"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="40dp"
+            android:text="profession"
+            android:textColor="@color/textcolorgrey"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/vp_follower"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="5dp"
+            android:text="View Profile"
+            android:textColor="@color/start"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1694CD"
+    tools:context=".LoginActivity1">
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/bungee_shade"
+        android:text="Memer's Katta"
+        android:gravity="center"
+        android:textColor="@color/ic_launcher_background"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/app_name"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="60dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edittext"
+            android:drawableStart="@drawable/ic_email"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/montserrat_alternates"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:maxLength="50"
+            android:maxLines="1"
+            android:textSize="16sp"
+            android:padding="13dp" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="7dp"
+            android:background="@drawable/edittext"
+            android:drawableStart="@drawable/ic_baseline_lock_24"
+            android:drawablePadding="5dp"
+            android:fontFamily="@font/montserrat_alternates"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:maxLength="20"
+            android:maxLines="1"
+            android:textSize="16sp"
+            android:padding="13dp" />
+
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_back"
+            android:fontFamily="@font/montserrat_alternates"
+            android:minWidth="120dp"
+            android:padding="10dp"
+            android:text="Login"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/montserrat_alternates"
+            android:text="(OR)"
+            android:textColor="#FFEB3B"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/GsignIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/ic_google"
+            android:fontFamily="@font/montserrat_alternates"
+            android:gravity="center_horizontal"
+            android:padding="13dp"
+            android:text="SignIn with Google"
+            android:textAllCaps="false"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/goToSignUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:clickable="true"
+            android:fontFamily="@font/montserrat_alternates"
+            android:gravity="center_horizontal"
+            android:minHeight="48dp"
+            android:padding="4dp"
+            android:text="Don't have a account ? Create one here"
+            android:textColor="#FFEB3B"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>

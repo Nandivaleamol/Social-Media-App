@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    tools:context=".PrivacyActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:cardBackgroundColor="@android:color/white"
+        android:layout_marginBottom="100dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Account Status"
+            android:textColor="@color/red"
+            android:textSize="25sp"
+            android:layout_gravity="center_vertical"
+            android:padding="5dp"
+            android:drawablePadding="5dp"
+            android:paddingStart="5dp"
+            tools:ignore="RtlSymmetry"
+            app:drawableStartCompat="@drawable/ic_baseline_keyboard_arrow_left_24" />
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Account Privacy"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"
+        android:layout_marginStart="40dp"
+        android:padding="5sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Public"
+        android:textSize="22sp"
+        android:id="@+id/tv_status"
+        android:layout_marginStart="50dp"
+        android:textColor="@android:color/darker_gray"/>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@color/red"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Status"
+        android:id="@+id/btn_privacy"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_back"
+        android:textStyle="bold"
+        android:layout_margin="20dp"/>
+
+
+
+</LinearLayout>
